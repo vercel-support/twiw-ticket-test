@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+// redeploy
+
 export default function Home() {
   const [data, setData] = useState("Waiting for data...");
   useEffect(async () => {
